@@ -523,8 +523,8 @@ header{
     margin: auto;
 }
 #cat{
-    width: 4.5vw;
-    height: 2.7vw;
+    /* width: 3.5vw; */
+    /* height: 2.7vw; */
     background-image: url(images/CatMini.png);
     background-size: cover;
     position: relative;
