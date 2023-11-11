@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    padding-left: 2vw;
+    
+}
+header{
+    width: 20vw;
+}
+
+.emblema{
+    max-width: 10vw;
+    max-height: 15vw;
+    position: relative;
+    left: 9vw;
+    right: 0vw;
+    top: 2vw;
+    bottom: 0vw;
+
+
+}
+.emblema div{
+    width: 2vw;
+    background-color: rgb(147, 129, 255);
+    
+}
+.circle_1{
+    height: 2vw;
+    border-radius: 50%;
+    position: relative;
+    left: 2vw;
+    right: 0vw;
+    top: 2vw;
+    bottom: 0vw;
+}
+.circle_2{
+    height: 2vw;
+    border-radius: 50%;
+    position: relative;
+    left: 4vw;
+    right: 0vw;
+    top: 1vw;
+    bottom: 0vw;
+    
+}
+.circle_3{
+    height: 2vw;
+    border-radius: 50%;
+    position: relative;
+    left: 4vw;
+    right: 0vw;
+    top: 1vw;
+    bottom: 0vw;
+    
+}
+.circle_4{
+    height: 2vw;
+    border-radius: 50%;
+    position: relative;
+    left: 2vw;
+    right: 0vw;
+    top: 0vw;
+    bottom: 0vw;
+    
+}
+.circle_5{
+    height: 2vw;
+    border-radius: 50%;
+    position: relative;
+    left: 0vw;
+    right: 0vw;
+    top: 0.3vw;
+    bottom: 0vw;
+    
+}
+.circle_6{
+    height: 2vw;
+    border-radius: 50%;
+    position: relative;
+    left: 0vw;
+    right: 0vw;
+    top: -8vw;
+    bottom: 0vw;
+    
+}
+.oval{
+    height: 6.5vw;
+    border-radius: 0%;
+    position: relative;
+    left: 0vw;
+    right: 0vw;
+    top: -9vw;
+    bottom: 0vw;
+
+}
+
+
+.loop{
+    max-width: 7vw;
+    max-height: 10vw;
+    position: relative;
+    left: 9vw;
+    right: 0vw;
+    top: 2vw;
+    bottom: 0vw;
+}
+.kroog{
+    background-color: #fff;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    border: 0.2vw solid black;
+    position: relative;
+    left: 44vw;
+    right: 0vw;
+    top: -10vw;
+    bottom: 0vw;
+}
+.palka{
+    background-color: #000000;
+    width: 0.2vw;
+    height: 1.5vw;
+    transform: rotate(130deg);
+    position: relative;
+    left: 46.55vw;
+    right: 0vw;
+    top: -10.7vw;
+    bottom: 0vw;
+}
+
+.caplya{
+    max-width: 7vw;
+    max-height: 10vw;
+    position: relative;
+    left: 66vw;
+    right: 0vw;
+    top: -13vw;
+    bottom: 0vw;
+}
+.crug{
+    width: 5vw;
+    background-color: rgb(147, 129, 255);
+    height: 5vw;
+    border-radius: 50%;
+    position: relative;
+    left: 2vw;
+    right: 0vw;
+    top: 0vw;
+    bottom: 0vw;
+}
+.treugolnic{
+    width: 0;
+    height: 0;
+    border-left: 2vw solid transparent;
+    border-right: 2vw solid transparent;
+    border-bottom: 3vw solid rgb(147, 129, 255);
+    transform: rotate(30deg);
+    position: relative;
+    left: 4vw;
+    right: 0vw;
+    top: -6.5vw;
+    bottom: 0vw;
+
+}
+
+.line{
+    max-width: 7vw;
+    max-height: 10vw;
+    position: relative;
+    left: 82vw;
+    right: 0vw;
+    top: -22vw;
+    bottom: 0vw;
+}
+.line div{
+    background-color: black;
+    height: 0.7vw;
+    border-radius: 20%;
+    margin: 1vw;
+    margin-right: auto;
+}
+
+.line_1{
+    width: 7vw;
+
+}
+.line_2{
+    width: 5vw;
+    position: relative;
+    left: 2vw;
+    right: 0vw;
+    top: 0vw;
+    bottom: 0vw;
+}
+.line_3{
+    width: 7vw;
+
+}
+
+.image {
+    width: 79vw;
+    height: 34.6vw;
+    position: relative;
+    left: 10vw;
+    right: 0vw;
+    top: -11vw;
+    bottom: 0vw;
+    
+}
+.image img {
+    width: 79vw;
+}
+.image-text{
+    color: #fff;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.5vw;
+    left: 5vw;
+    right: 0vw;
+    top: -25vw;
+    bottom: 0vw;
+}
+.image-text_2{
+    color: #fff;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vw;
+    left: 5vw;
+    right: 0vw;
+    top: -20vw;
+    bottom: 0vw;
+}
+.ObschSilky{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.Text{
+    font-family: Inter;
+    font-size: 1.7vw;
+}
+.silkaBreakfast{
+    background-image: url(images/breckfastImg.png);
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+}
+.silkaLunch{
+    background-image: url(images/lunchImg.png);
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+}
+.silkaDinner{
+    background-image: url(images/DinnerImg.png);
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+}
+.aSilka{
+    color: black;
+    text-decoration: none;
+    
+    font-size: 2vw;
+    border-radius: 2vw;
+    background-color: #FFF;
+    padding: 1vw;
+    position: relative;
+    top: 15vw;
+    left: 10vw;
+}
+
+.BrSilky{
+    width: 200vw;
+    
+}
+.bx-wrapper {
+    width: 100%;
+    height: 13vw;
+    box-shadow:0 0 0px #ccc;
+}
+
+
+/* .sandwich{
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+} */
+/* .envelopes{
+    background-image: url(images/Konvert.png);
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+}
+.smoothie{
+    background-image: url(images/Smoosi.png);
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+}
+.quesadilla{
+    background-image: url(images/Kesadilia.png);
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+}
+.pancakes{
+    background-image: url(images/Panceyck.png);
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+}
+.oatmeal{
+    background-image: url(images/Ovsanka.png);
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+}
+.slapjack{
+    background-image: url(images/Bliny.png);
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+} */
+
+/* .lunch.slider.item{
+    width: 25% !important;
+} */
+
+
+
+
+.Breakfast-h1{
+    font-family: Inter;
+    font-size: 2.5vw;
+    border-left: 1vw;
+}
+.Breakfast-h3{
+    color: #8E8E8E;
+    font-family: Inter;
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+.LnSilky{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.Lunch-h1{
+    font-family: Inter;
+    font-size: 2.5vw;
+    border-left: 1vw;
+}
+.lunch-p{
+    color: #8E8E8E;
+    font-family: Inter;
+    font-size: 1.3vw;
+
+}
+/* .cheeseSoup{
+    background-image: url(images/SirSuap.png);
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+}
+.borsch{
+    background-image: url(images/Borsch.png);
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+}
+.broccoliSoup{
+    background-image: url(images/SuapPure.png);
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+}
+.pumpkinSoup{
+    background-image: url(images/TikvSuap.png);
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+}
+.tomatoSoup{
+    background-image: url(images/TomatSuap.png);
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+}
+.Tomyam{
+    background-image: url(images/Tomyam.png);
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+}
+.ramen{
+    background-image: url(images/Ramen.png);
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+} */
+.lun-a{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 1.5vw;
+}
+.DinSilky{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.Dinner-h1{
+    font-family: Inter;
+    font-size: 2.5vw;
+    border-left: 1vw;
+}
+.dinner-p{
+    display: flex;
+    justify-content: center;
+    border-right: 3vw;
+    color: #8E8E8E;
+    font-family: Inter;
+    font-size: 1.3vw;
+    width: 50vw;
+}
+
+/* .nuggets{
+    background-image: url(images/Nagets.png);
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+
+}
+.wok{
+    background-image: url(images/wok.png);
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+
+}
+.chickenPancakes{
+    background-image: url(images/KurBlin.png);
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+
+}
+.kebab{
+    background-image: url(images/Kebab.png);
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+
+}
+.sesameChicken{
+    background-image: url(images/Kuriza.png);
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+
+}
+.sweet-and-sour-chicken{
+    background-image: url(images/KunzKur.png);
+    background-size: cover;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    color: #fff;
+
+} */
+.Din-a{
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    position: relative;
+    left: 1.5vw;
+}
+
+
+.miniPl{
+    width: 95vw;
+    height: 20vw;
+    z-index: 10;
+    border-bottom: 0.1vw solid #000;
+    margin: auto;
+}
+#cat{
+    width: 4.5vw;
+    height: 2.7vw;
+    background-image: url(images/CatMini.png);
+    background-size: cover;
+    position: relative;
+    top: 17vw;
+}
+#eat{
+    width: 5.7vw;
+    height: 4.9vw;
+    background-image: url(images/burgerMini.png);
+    background-size: cover;
+    position: relative;
+    top: 12.4vw;
+    left: 90vw;
+    animation: eatMov 2s infinite linear;
+}
+
+
+@keyframes eatMov{
+    0%{
+        left: 80vw;
+    }
+    100%{
+        left: -4vw;
+    }
+}
+
+.jump{
+    animation: jump 1s 1;
+}
+
+@keyframes jump{
+    0%{
+       top: 17vw;
+    }
+    20%{
+        top: 12vw;
+    }
+    30%{
+        top: 10vw;
+    }
+    50%{
+        top: 5vw;
+    }
+    70%{
+        top: 10vw;
+    }
+    80%{
+        top: 12vw;
+    }
+    
+    100%{
+        top: 17vw;
+    }
+}
+
+.miniPictute{
+    width: 5vw;
+    
+}
+
+
+
+
+footer{
+    background: #9396DE;
+    color:#E6E6E6;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+}
+.ourMass{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2vw;
+
+
+}
+
+.grup{
+
+    position: relative;
+    bottom: 8.5vw;
+    left: 80vw;
+}
+
+.whatsapp{
+    padding-bottom: 1vw;
+}
+
+.grup3{
+    position: relative;
+    left: 80vw;
+    bottom: 3vw;
+}
+/* img{
+    width: 2%;
+} */
+
+@media (max-width: 480px) {
+    body{
+        padding-left: 7vw;
+    }
+}
