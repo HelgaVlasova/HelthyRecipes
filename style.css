@@ -242,6 +242,7 @@ header{
 .silkaBreakfast{
     background-image: url(images/breckfastImg.png);
     z-index: 2;
+    background-size:cover;
     width: 20vw;
     height: 20vw;
     color: #fff;
@@ -249,12 +250,14 @@ header{
 .silkaLunch{
     background-image: url(images/lunchImg.png);
     z-index: 2;
+    background-size:cover;
     width: 20vw;
     height: 20vw;
 }
 .silkaDinner{
     background-image: url(images/DinnerImg.png);
     z-index: 2;
+    background-size:cover;
     width: 20vw;
     height: 20vw;
 }
@@ -453,6 +456,7 @@ header{
     width: 50vw;
 }
 
+
 /* .nuggets{
     background-image: url(images/Nagets.png);
     background-size: cover;
@@ -522,24 +526,7 @@ header{
     border-bottom: 0.1vw solid #000;
     margin: auto;
 }
-#cat{
-    /* width: 3.5vw; */
-    /* height: 2.7vw; */
-    background-image: url(images/CatMini.png);
-    background-size: cover;
-    position: relative;
-    top: 17vw;
-}
-#eat{
-    width: 5.7vw;
-    height: 4.9vw;
-    background-image: url(images/burgerMini.png);
-    background-size: cover;
-    position: relative;
-    top: 12.4vw;
-    left: 90vw;
-    animation: eatMov 2s infinite linear;
-}
+
 
 
 @keyframes eatMov{
